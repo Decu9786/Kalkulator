@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KALKULATOR</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="skrypt.js"> </script>
+  </head>
+  
+  
+  <body>
+  
+	<input id="firstnum" type="number"></input>
+	
+	<select id="options">
+		<option value="_add">+</option>
+		<option value="_sub">-</option>
+		<option value="_mul">*</option>
+		<option value="_div">/</option>
+	</select>
+	
+	<input id="secondnum" type="number"></input>
+	
+	<button id="buttonid" onclick="calculate()">POLICZ</button>
+	
+	<p></p>
+	<button id="buttonclear" onclick="clearhistory()">WYCZYSC</button>
+	<div id="history" class = "kolory">Historia:</div>
+	
+  </body>
+  
+</html>
